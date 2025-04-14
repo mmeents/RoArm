@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoArmDriver.App", "RoArmDriver.App.csproj", "{E6428B66-6BF7-4EA6-B3BB-80DB9D9E9395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoArmDriver.Core", "..\RoArmDriver.Core\RoArmDriver.Core.csproj", "{1FBE9FBA-B59D-497A-B39C-667D360B8E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoArmDriver.Core.Tests", "..\RoArmDriver.Core.Tests\RoArmDriver.Core.Tests.csproj", "{1FE09991-A71C-4320-9C44-1F3A9F52DEDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6428B66-6BF7-4EA6-B3BB-80DB9D9E9395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6428B66-6BF7-4EA6-B3BB-80DB9D9E9395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6428B66-6BF7-4EA6-B3BB-80DB9D9E9395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6428B66-6BF7-4EA6-B3BB-80DB9D9E9395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBE9FBA-B59D-497A-B39C-667D360B8E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBE9FBA-B59D-497A-B39C-667D360B8E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBE9FBA-B59D-497A-B39C-667D360B8E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBE9FBA-B59D-497A-B39C-667D360B8E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE09991-A71C-4320-9C44-1F3A9F52DEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE09991-A71C-4320-9C44-1F3A9F52DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE09991-A71C-4320-9C44-1F3A9F52DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE09991-A71C-4320-9C44-1F3A9F52DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DF08927-A8C2-418B-8DCD-24A8E66E643B}
+	EndGlobalSection
+EndGlobal
